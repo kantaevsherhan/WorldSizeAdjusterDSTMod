@@ -14,6 +14,9 @@ dont_starve_compatible = false
 reign_of_giants_compatible = false
 shipwrecked_compatible = false
 
+icon_atlas = "modicon.xml"
+icon = "modicon.tex"
+
 server_only_mod = true
 all_clients_require_mod = false
 client_only_mod = false

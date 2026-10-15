@@ -58,7 +58,7 @@ Test a fresh cluster with caves enabled, enter a cave entrance and return, and v
 
 ## Icon / Иконка
 
-`modicon.png` is the prepared 256×256 source. DST's mod list requires a Klei `.tex` plus atlas XML, and no Klei texture converter was available on this machine. Convert the PNG with Klei's TextureConverter using RGBA8888/BC3 (DXT5) with mipmaps disabled, save it as `modicon.tex`, create `modicon.xml` pointing to `modicon.tex`, then add `icon_atlas = "modicon.xml"` and `icon = "modicon.tex"` to `modinfo.lua`. The mod intentionally omits broken icon references until those two files exist.
+The included `modicon.tex` is a BC3 OpenGL KTEX texture with mipmaps and premultiplied alpha. `modicon.xml` is its DST atlas, and `modinfo.lua` references both files. `modicon.png` is retained only as the editable source image.
 
 ## Validation status / Статус проверки
 
