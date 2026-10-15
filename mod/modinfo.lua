@@ -1,5 +1,6 @@
 name = "World Size Adjuster"
-version = "1.0.1"
+version = "1.0.2"
+version_compatible = version
 author = "Sherkhan"
 
 local is_ru = locale == "ru" or locale == "ru_RU"
@@ -13,6 +14,7 @@ dst_compatible = true
 dont_starve_compatible = false
 reign_of_giants_compatible = false
 shipwrecked_compatible = false
+hamlet_compatible = false
 
 icon_atlas = "modicon.xml"
 icon = "modicon.tex"

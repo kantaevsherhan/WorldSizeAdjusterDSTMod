@@ -1,6 +1,6 @@
 # World Size Adjuster / Настройка размера мира
 
-Version 1.0.1 fixes startup compatibility with DST's restricted `modinfo.lua` environment.
+Version 1.0.2 fixes startup compatibility with DST's restricted `modinfo.lua` environment and supplies the legacy compatibility fields required by Don't Starve Mod Uploader.
 
 Server-side world-generation mod for the current Steam version of Don't Starve Together. It provides independent Surface and Caves choices in the standard Mods configuration screen.
 
