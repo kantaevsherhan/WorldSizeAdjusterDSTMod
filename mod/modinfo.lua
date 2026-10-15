@@ -1,5 +1,5 @@
 name = "World Size Adjuster"
-version = "1.0.0"
+version = "1.0.1"
 author = "Sherkhan"
 
 local is_ru = locale == "ru" or locale == "ru_RU"
@@ -25,9 +25,9 @@ priority = 0
 
 local function label(target, applied)
     if is_ru then
-        return string.format("Цель %d × %d → штатный min_size %d", target, target, applied)
+        return "Цель " .. target .. " × " .. target .. " → штатный min_size " .. applied
     end
-    return string.format("Target %d × %d → native min_size %d", target, target, applied)
+    return "Target " .. target .. " × " .. target .. " → native min_size " .. applied
 end
 
 local size_options = {
